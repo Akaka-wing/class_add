@@ -2,13 +2,15 @@
 
 add::add(double a, double b)
 {
-
+    n = a;
+    m = b;
 }
 
 add::~add()
 {
 }
 
-add::solution()
+double add::solution()
 {
+    return (a + b);   
 }
