@@ -12,7 +12,6 @@ add::~add()
 
 double add::solution()
 {
-    double c;
-    c = a + b;
-    return c;
+   
+    return a + b;
 }
